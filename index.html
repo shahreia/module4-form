@@ -12,7 +12,54 @@
     </header>
     <main>
 <section>
-    <h2>Please Fill Up The Form</h2>
+    <h2 id="head">Please Fill Up The Form</h2>
+       <form>
+        <label for="name">Your Name:
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="email">Enter Your Email:
+            <input type="email" name="" id="email" placeholder="Your Email">
+        </label>
+        <label for="">Enter Password:
+            <input type="password" name="" id="password" placeholder="Password">
+        </label>
+        <fieldset id="coloss">
+            <legend class="colors">Pick Your University</legend>
+            <label for="Khulna University">
+                <input type="radio" name="university" id="Khulna University">Khulna University</label>
+                <label for="Northern University,Khulna">
+                    <input type="radio" name="university" id="Northern University,Khulna">Northern University,Khulna
+                </label>
+                <label for="North Western University">
+                    <input type="radio" name="university" id="North Western University">North Western University
+                </label>
+        </fieldset>
+        <fieldset class="color">
+            <legend id="color1">Your Interest</legend>
+            <label for="App Development">
+                <input type="checkbox" name="interest" id="App Development">App Development
+            </label>
+            <label for="Web Development">
+                <input type="checkbox" name="interest" id="Web Development">Wev Development
+            </label>
+            <label for="UI">
+                <input type="checkbox" name="interest" id="UI">UI-UX Design
+            </label>
+            <label for="programmer">
+                <input type="checkbox" name="interest" id="programmer">Programmer
+            </label>
+        </fieldset>
+
+        <fieldset class="cola">
+            <legend class="colors">Special Instruction</legend>
+            <textarea name="" id="area" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset id="colas">
+            <input class="col" type="reset" value="Reset">
+            <input class="col" type="submit" value="Submit">
+        </fieldset>
+       </form>
+    
 </section>
     </main>
     <footer>

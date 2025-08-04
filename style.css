@@ -1,0 +1,50 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head{
+font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color:rgb(29, 29, 112);
+    font-style: inherit;
+}
+.color{
+    background-color: rgb(243, 196, 135);
+    color: rgb(35, 5, 53);
+    border: 5px solid rgb(63, 28, 139);
+    border-radius:5px
+}
+#color1{
+    font-size: large;
+    color: rgb(168, 21, 21);
+}
+.colors{
+    color: rgb(250, 247, 252);
+    border: 2px solid rgb(63, 28, 139);
+    border-radius:5px;
+    background-color: darkcyan;
+
+}
+#coloss{
+    background-color: rgb(216, 136, 79);
+}
+.col{
+    background-color: rgb(19, 12, 115);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    color: gainsboro;
+}
+.cola{
+    background-color: darkgray;
+
+}
+#colas{
+    background-color: rgba(224, 120, 91, 0.534);
+}
+#area{
+    background-color: rgb(22, 86, 95);
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
